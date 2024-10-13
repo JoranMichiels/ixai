@@ -3,11 +3,9 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 from torchvision.datasets import Imagenette
 
-from helpers import normalize_tensor
+from helpers import normalize_tensor, get_file_path
 
-root = '/esat/biomeddata/jmichiel/'
-
-SAVES = '/esat/biomeddata/jmichiel/' + 'imagenet_pytorch/'
+SAVES = get_file_path('clickmette/')
 
 
 class ImageNetteDataset(Dataset):
@@ -37,8 +35,8 @@ class ImageNetteDataset(Dataset):
         return input_transform(X)
 
     def __init__(self, set='val'):
-        self.dataset = Imagenette(root=root, split=set,
-                                  transform=ImageNetteDataset.transform, download=False)
+        self.dataset = Imagenette(root=SAVES, split=set,
+                                  transform=ImageNetteDataset.transform, download=True) # change download to False if you have already downloaded the dataset
         self.length = len(self.dataset)
 
     def __len__(self):

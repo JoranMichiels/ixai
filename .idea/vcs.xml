@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/../dependent-SHAP/decomposition-shap-private" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../fa-collab/FI-literature-review" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../interactive-explanations/pstats_viewer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../latent-SHAP/code/notmine/vae-celebA" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ms_benchmark" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../overview-sota-interpretable-ml/code/notmine/risk-slim" vcs="Git" />
