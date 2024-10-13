@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../courses/hpc-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../DLSeizeExplain" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../XIL/code_miguel/DL_epilepsy_base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../dependent-SHAP/decomposition-shap-private" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../fa-collab/FI-literature-review" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../interactive-explanations/pstats_viewer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../latent-SHAP/code/notmine/vae-celebA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ms_benchmark" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../overview-sota-interpretable-ml/code/notmine/risk-slim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../time-SHAP/code/notmine/deepsleepnet" vcs="Git" />
+  </component>
+</project>
