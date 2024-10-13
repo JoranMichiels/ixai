@@ -1,5 +1,3 @@
-from example import saliency_attributor
-
 # Interactive eXplainable Artificial Intelligence (IXAI)
 
 ## Install instructions
@@ -13,7 +11,7 @@ from example import saliency_attributor
 
 ## Files and important functions
 
-- `ixai/torch_explainers.py` contains differentiable explainer classes, modified from [Ĉaptum](https://captum.ai/)
+- `ixai/torch_explainers.py` contains differentiable explainer classes, modified from [Captum](https://captum.ai/)
   explainer classes. The available explainers are:
     - class `SaliencyGraph`
     - class `IntegratedGradientsGraph`
@@ -32,8 +30,8 @@ from example import saliency_attributor
       [ClickMe](https://serre-lab.clps.brown.edu/resource/clickme) explanation. This will be the main training dataset
       for our example.
     - class `ImageNetteDataset(...)` is a pytorch like dataset class that can be used to load the
-      complete [Imagenette](https://github.com/fastai/imagenette). We will this in our example for extra validation.
-- `ixai/helpers.py` contains some helper functions
+      complete [Imagenette](https://github.com/fastai/imagenette). We will use this in our example for extra validation.
+- `helpers.py` contains some helper functions
 
 ## General Usage
 
