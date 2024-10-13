@@ -3,7 +3,7 @@
 ## Install instructions
 
 - clone the Github respository
-- install Conda environment (requires Conda): `conda env create -f environment.yml`
+- install `requirements.txt` (Python 3.9.9)
 - if you want to run the example, download the data files from
   this [drive](https://kuleuven-my.sharepoint.com/:f:/g/personal/joran_michiels_kuleuven_be/Etvn8hgDPCdJr4gi4Lf5Py4Bc4lVImxr_73bzY6z5hVBSQ?e=TqRZDB)
   and place them in the `clickmette` folder. Combine `10images.pt.aa` and `10images.pt.ab` back into one file:
